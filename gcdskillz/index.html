@@ -1090,6 +1090,10 @@ a.pill--d1:hover{filter:brightness(.96)}a.pill--d2:hover{filter:brightness(.96)}
 .soon>div b{display:block;margin-bottom:4px}
 .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.82rem;margin:6px 0 10px}
 .legend span{display:inline-flex;align-items:center;gap:6px}
+.must{display:flex;gap:14px;align-items:flex-start;background:var(--phase2-deep);color:#fff;border-radius:12px;padding:16px 20px;margin:18px 0 6px;font-size:1.02rem;line-height:1.45}
+.must strong{color:#fff;font-size:1.1rem}
+.must-k{flex:none;background:#fff;color:var(--phase2-deep);font-weight:800;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:99px;margin-top:3px}
+@media print{.must{background:none;color:#000;border:2px solid #000}.must strong{color:#000}}
 :root{--purple:#00A984;--purple-deep:#00785D;--purple-tint:#e6f6f2;--purple-tint-2:#c4ebe0;
 --phase2:#00A984;--phase2-deep:#00785D;--phase2-tint:#e6f6f2;--phase2-tint-2:#c4ebe0;
 --border:#dce8e4;--phase4:#0060A8;--phase4-deep:#00477D;--phase4-tint:#e6eef7;--phase4-tint-2:#c9daee}
@@ -1106,6 +1110,9 @@ a.pill--d1:hover{filter:brightness(.96)}a.pill--d2:hover{filter:brightness(.96)}
       <a href="#programme">Programme</a>
       <button id="printBtn" type="button">Print / Export</button>
     </nav>
+  </div>
+  <div class="wrap">
+    <div class="must"><span class="must-k">Required</span><div><strong>Sign up for at least two workshops: one on Thursday 28 January and one on Thursday 4 February.</strong><br>Book through Microsoft Bookings, from Tuesday 19 January 14:00 until Monday 25 January 14:00.</div></div>
   </div>
   <div class="wrap intro">
     <p>Two Thursdays of hands-on workshops led by tutors and technical staff from across CSM. Learn new skills, explore new tools and ideas, and make new connections across the wider CSM community.</p>
@@ -1138,7 +1145,7 @@ a.pill--d1:hover{filter:brightness(.96)}a.pill--d2:hover{filter:brightness(.96)}
       <div class="callout">
         <span class="label">In short</span>
         <ul class="plain-list flush-bottom">
-          <li><strong>Sign up for at least two workshops.</strong> This is compulsory. You choose which ones, on either Thursday.</li>
+          <li><strong>Sign up for at least two workshops: one on each Thursday.</strong> This is compulsory. Book one on Thursday 28 January and one on Thursday 4 February, morning or afternoon.</li>
           <li><strong>First come, first served.</strong> Each workshop has a limited number of places.</li>
           <li><strong>Sign up through Microsoft Bookings only.</strong> Emails, Teams messages or turning up without a booking don't secure a place.</li>
           <li><strong>Booking is a commitment.</strong> If you can't attend, cancel in advance so someone else can take your place.</li>
@@ -1151,7 +1158,7 @@ a.pill--d1:hover{filter:brightness(.96)}a.pill--d2:hover{filter:brightness(.96)}
       <p>Sign-up happens through Microsoft Bookings. Places are first come, first served.</p>
       <div class="flow">
         <div class="r1"><b>Sign-up opens</b>The GCD Skillz booking page goes live.<span class="when">Tue 19 Jan · 14:00</span></div>
-        <div class="r1"><b>Book at least two workshops</b>This is compulsory. Pick any two (or more) from either Thursday, morning or afternoon.<span class="when">Tue 19 – Mon 25 Jan</span></div>
+        <div class="r1"><b>Book at least two workshops</b>Compulsory: one on Thursday 28 January and one on Thursday 4 February. You can book more if places are free.<span class="when">Tue 19 – Mon 25 Jan</span></div>
         <div class="r1"><b>Sign-up closes</b>After this, the lists are final.<span class="when">Mon 25 Jan · 14:00</span></div>
         <div class="day"><b>Workshop days</b>Check where your workshops are and arrive in good time.<span class="when">Thu 28 Jan &amp; Thu 4 Feb</span></div>
       </div>
@@ -1340,7 +1347,7 @@ a.pill--d1:hover{filter:brightness(.96)}a.pill--d2:hover{filter:brightness(.96)}
 
     <section id="faq">
       <h2 class="section-title">FAQ</h2>
-      <details class="faq-item"><summary>Do I have to take part?</summary><div class="a"><p>Yes. GCD Skillz is part of your course: sign up for at least two workshops. Which ones is up to you.</p></div></details>
+      <details class="faq-item"><summary>Do I have to take part?</summary><div class="a"><p>Yes. GCD Skillz is part of your course: sign up for at least two workshops, one on each Thursday. Which ones is up to you.</p></div></details>
       <details class="faq-item"><summary>Is it assessed?</summary><div class="a"><p>No. It isn't linked to any brief or assessment. It's a space to try new things, and what you learn can feed into your own practice.</p></div></details>
       <details class="faq-item"><summary>Can I do more than one workshop on a day?</summary><div class="a"><p>Yes. You can book a morning and an afternoon session on the same day, as long as places are available.</p></div></details>
       <details class="faq-item"><summary>The workshop I want is full. What now?</summary><div class="a"><p>Check whether it runs on the other Thursday or in the other slot, or pick something new. Places sometimes free up, so check the booking page again later.</p></div></details>
